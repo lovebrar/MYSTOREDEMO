@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.CreateAccountTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="createNewContactTest"/>
+          <include name="validateCreateAccountPageTitle"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CreateAccountTest -->
+      <class name="com.crm.qa.testcases.RegisteredPageTest">
+        <methods>
+          <include name="WomenButtonTest"/>
+          <include name="TearDown"/>
+          <include name="verifycreditSlipsTest"/>
+          <include name="verifylogoutButtonTest"/>
+          <include name="verifyhomeButtonTest"/>
+          <include name="verifyWishlistTest"/>
+          <include name="TshirtButtonTest"/>
+          <include name="verifyOrderHistoryTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.RegisteredPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

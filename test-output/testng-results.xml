@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="79378" started-at="2021-05-03T02:39:25Z" finished-at="2021-05-03T02:40:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="79378" started-at="2021-05-03T02:39:25Z" finished-at="2021-05-03T02:40:44Z">
+      <class name="com.crm.qa.testcases.CreateAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CreateAccountTest@91161c7]" name="setUp" is-config="true" duration-ms="22716" started-at="2021-05-02T22:39:25Z" finished-at="2021-05-02T22:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateAccountPageTitle()[pri:1, instance:com.crm.qa.testcases.CreateAccountTest@91161c7]" name="validateCreateAccountPageTitle" duration-ms="16" started-at="2021-05-02T22:39:48Z" finished-at="2021-05-02T22:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateAccountPageTitle -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.crm.qa.testcases.CreateAccountTest@91161c7]" name="TearDown" is-config="true" duration-ms="1872" started-at="2021-05-02T22:39:48Z" finished-at="2021-05-02T22:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CreateAccountTest@91161c7]" name="setUp" is-config="true" duration-ms="15670" started-at="2021-05-02T22:39:50Z" finished-at="2021-05-02T22:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CreateAccountTest@91161c7]" name="createNewContactTest" duration-ms="36056" started-at="2021-05-02T22:40:06Z" data-provider="getMyStoreTestData" finished-at="2021-05-02T22:40:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[james]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[snow]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcd123#]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[amazon]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[634 huron street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[atlanta]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10023.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[6.47877985E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.crm.qa.testcases.CreateAccountTest@91161c7]" name="TearDown" is-config="true" duration-ms="1985" started-at="2021-05-02T22:40:42Z" finished-at="2021-05-02T22:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.crm.qa.testcases.CreateAccountTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
